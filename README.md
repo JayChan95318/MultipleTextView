@@ -1,11 +1,35 @@
 # MultipleTextView
 支持定义前后缀文字和文字颜色的TextView 
 
+
+
+
  MultipleTextView是一个支持定义前后缀文字和文字颜色的TextView,效果图如下：
 
    ![](http://i.imgur.com/SV4zWGv.jpg)
 
    其中，数字200的左边文字是MultipleTextView的前缀,右边文字是PowerfulTextView的后缀,一般前缀后缀都是写死的,你可以在xml里面定义前缀和后缀,也可以在代码中修改前缀后缀
+   
+   
+## 导入
+
+   在项目根目录下的build.gradle中的allprojects{}中，添加jitpack仓库地址，如下：
+
+    allprojects {
+	    repositories {
+	        jcenter()
+	        maven { url 'https://jitpack.io' }//添加jitpack仓库地址
+	    }
+    }
+
+
+   打开app的module中的build.gradle，在dependencies{}中，添加依赖，如下：
+
+
+    dependencies {
+        ......
+        compile 'com.github.chaychan:PowerfulViewLibrary:1.1.0'
+    }
 
 
 ### 使用
