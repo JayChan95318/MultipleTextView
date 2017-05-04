@@ -34,7 +34,7 @@
 
 ### 使用
 
-   在布局文件中，PowerfulTextView，代码如下：
+   在布局文件中，使用MultipleTextView，代码如下：
 
      <com.jaychan.view.MultipleTextView
         android:id="@+id/multiple_text_view"
