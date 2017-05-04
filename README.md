@@ -8,7 +8,7 @@
 
    ![](http://i.imgur.com/SV4zWGv.jpg)
 
-   其中，数字200的左边文字是MultipleTextView的前缀,右边文字是PowerfulTextView的后缀,一般前缀后缀都是写死的,你可以在xml里面定义前缀和后缀,也可以在代码中修改前缀后缀
+   其中，数字200的左边文字是MultipleTextView的前缀,右边文字是MultipleTextVie的后缀,一般前缀后缀都是写死的,你可以在xml里面定义前缀和后缀,也可以在代码中修改前缀后缀
    
    
 ## 导入
