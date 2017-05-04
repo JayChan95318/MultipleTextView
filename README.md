@@ -28,7 +28,7 @@
 
     dependencies {
         ......
-        compile 'com.github.chaychan:PowerfulViewLibrary:1.1.0'
+          compile 'com.github.JayChan95318:MultipleTextView:1.0'
     }
 
 
